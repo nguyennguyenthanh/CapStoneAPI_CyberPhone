@@ -1,0 +1,31 @@
+#modal__form {
+  width: $modal-width;
+  min-height: $modal-min-height;
+  height: auto;
+  border-radius: $modal-border-radius;
+  margin: $modal-margin;
+  box-shadow: $modal-box-shadow;
+  padding: $modal-padding;
+  background-image: $modal-background;
+  @include modal-style;
+}
+
+header h3 {
+  padding-top: 15px;
+  text-align: center;
+  font-size: $heading-font-size;
+  font-family: "Playfair Display", serif;
+  color: $heading-color;
+}
+
+.form-group {
+  padding: $form-group-padding;
+}
+
+.sp-thongbao {
+  color: $sp-thongbao-color;
+}
+
+.input-group-text {
+  padding: $input-group-text-padding;
+}

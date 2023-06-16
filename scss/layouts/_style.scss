@@ -1,0 +1,80 @@
+@media-max-width-991.5px {
+  $card-span-font-size: 1.1rem;
+  $selectList-width: 100% !important;
+}
+
+@media-max-width-525.5px {
+  $content-my-5-margin-top: 20px !important;
+  $content-my-5-margin-bottom: 20px !important;
+  $col-lg-4-padding-left: 0;
+  $col-md-6-padding-left: 0;
+  $selectList-width: 100% !important;
+}
+
+body {
+  padding-top: $body-padding-top;
+  margin-bottom: $body-margin-bottom;
+  background-color: $body-background-color;
+}
+
+p {
+  margin: $p-margin;
+}
+
+h2 {
+  margin: $h2-margin;
+}
+
+strong {
+  font-weight: $strong-font-weight;
+}
+
+main {
+  background-color: $main-background-color;
+  border-top-left-radius: $main-border-radius;
+  border-top-right-radius: $main-border-radius;
+}
+
+.main-color {
+  background: $main-color-background;
+}
+
+.gradient-custom {
+  background: $gradient-custom-background;
+}
+
+header #navbarColor01 a {
+  transition: $navbar-transition-duration all ease-in-out;
+
+  &:hover {
+    transform: scale($navbar-hover-scale);
+  }
+}
+
+.black {
+  background: $black-background;
+}
+
+.nav1 {
+  display: flex;
+  justify-content: $nav1-justify-content;
+  width: 100%;
+}
+
+.nav2 {
+  display: flex;
+  justify-content: $nav2-justify-content;
+  width: 100%;
+}
+
+.phoneBanner {
+  background-color: $phoneBanner-background-color;
+  border-top-left-radius: $phoneBanner-border-radius;
+  border-top-right-radius: $phoneBanner-border-radius;
+  align-items: center;
+}
+
+footer {
+  bottom: $footer-bottom;
+  width: $footer-width;
+}

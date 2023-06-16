@@ -1,0 +1,39 @@
+@media (max-width: 1199.5px) {
+  /* .card {
+        height: 600px;
+      } */
+}
+
+@media (max-width: 991.5px) {
+
+  /* .card {
+        height: 550px;
+      } */
+  .card span {
+    font-size: 1.1rem;
+  }
+
+  #selectList {
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 525.5px) {
+  #content.my-5 {
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+  }
+
+  .col-lg-4,
+  .col-md-6 {
+    padding-left: 0;
+  }
+
+  .cart__contents {
+    width: 400px;
+  }
+
+  #selectList {
+    width: 100% !important;
+  }
+}
